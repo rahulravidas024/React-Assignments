@@ -1,0 +1,38 @@
+.App{
+  background-color: gray;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textArea{
+  height: 150px;
+  width: 600px;
+  border: 1px solid;
+  margin-left: 280px;
+  background-color: lightgray;
+  font-size: 20px;
+}
+
+.submitButton{
+  height: 40px;
+  width: 200px;
+  background-color: orange;
+  margin-left: 40%;
+  margin-top: 1%;
+  font-size: 20PX;
+}
+
+.paragraph{
+  height: 200px;
+  width: 1000px;
+  border: 1px solid black;
+  margin-left: 100px;
+  background-color: lightgray;
+  font-size: 20PX;
+  font-family: 'Times New Roman', Times, serif;
+}
