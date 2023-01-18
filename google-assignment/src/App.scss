@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+
+    img {
+        height: 110px;
+        width: 280px;
+        margin-left: 8.6rem;
+    }
+
+    .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+
+        input {
+            width: 35rem;
+            height: 2rem;
+            border-radius: 1rem;
+            position: relative;
+        }
+
+        img {
+            height: 1.2rem;
+            width: 1.2rem;
+            margin-left: 32rem;
+            position: absolute;
+        }
+    }
+
+    .btn {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            border-radius: 4px;
+            font-family: arial, sans-serif;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            min-width: 54px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+    }
+
+    .lang {
+
+        p {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
